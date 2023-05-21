@@ -1,8 +1,7 @@
 <script lang="ts" src="./GraphCanvas.ts"/>
 
 <template>
-  <div class="container" ref="container">GraphCanvas
-    <canvas ref="canvas" class="canvas"></canvas>
+  <div class="container" ref="container" id="container">
   </div>
 </template>
 
