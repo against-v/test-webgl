@@ -1,7 +1,8 @@
 import {defineComponent, onMounted, ref, useCssModule} from "vue"
-import {runForceGraph} from "./forcegraph.js"
+// import {runForceGraph} from "./forcegraph.js"
+//@ts-ignore
 import {runForceGraphPixi} from "./runForceGrpahPixi.js"
-import {data} from "@/assets/mocks.js";
+// import {data} from "@/assets/mocks.js";
 import NodeTooltip from "@/components/NodeTooltip/NodeTooltip";
 
 export default defineComponent({
@@ -14,7 +15,7 @@ export default defineComponent({
         
         const generateNodes = () => {
             const res = [];
-            for (let i = 1; i <= 5000; i++) {
+            for (let i = 1; i <= 1000; i++) {
                 res.push({
                     "id": i,
                     "name": `name ${i}`,
